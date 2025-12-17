@@ -1,0 +1,1 @@
+{"lowercase": true, "regex": "\\w+|[.,!?;:]", "eos_token": "<eos>"}
