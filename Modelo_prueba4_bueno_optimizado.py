@@ -252,7 +252,7 @@ def run_pipeline():
                 if (j + 1) % 4 == 0: # New paragraph every 4 dots
                     parraphed_story += "\n\n"
         
-        print(f"\nHISTORY {i+1}:\n{parraphed_story}")
+        print(f"\nSTORY {i+1}:\n{parraphed_story}")
         
         # Save to output directory
         with open(os.path.join(OUTPUT_DIR, f"long_story_{i+1}.txt"), "w") as f:
